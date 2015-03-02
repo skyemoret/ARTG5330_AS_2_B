@@ -68,38 +68,38 @@ p{
 }
 
 /*------------svg-----------------*/
-.canvas .node{
+.plot .node{
     stroke:white;
     stroke-width:2px;
     fill-opacity:.8;
     fill:rgb(255,234,0);
 }
-.canvas .node circle{
+.plot .node circle{
     stroke:white;
     stroke-width:2px;
 }
-.canvas .node text{
+.plot .node text{
     font-size:12px;
     stroke:none;
     fill:white;
     visibility:hidden;
 }
-.canvas .node:hover text{
+.plot .node:hover text{
     visibility:visible;
 }
 
 /*Styling axes*/
-.canvas .axis .domain{
+.plot .axis .domain{
     stroke:white;
     stroke-width:2px;
 }
-.canvas .axis .tick line{
+.plot .axis .tick line{
     stroke:white;
     stroke-width:1px;
 }
-.canvas .axis.y .tick line{
+.plot .axis.y .tick line{
     stroke-dasharray:3 3;
 }
-.canvas .axis .tick text{
+.plot .axis .tick text{
     fill:white;
 }
